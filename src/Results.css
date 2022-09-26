@@ -1,0 +1,9 @@
+.Results section {
+	margin: 20px 0px;
+	background: white;
+}
+
+.Results h2 {
+	font-size: 30px;
+	color: orangered;
+}

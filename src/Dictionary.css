@@ -1,3 +1,38 @@
 .Dictionary {
 	background: white;
 }
+
+.Dictionary section {
+	background: white;
+	padding: 20px 0px;
+	border-radius: 6px;
+	box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.Dictionary h2 {
+	font-size: 20px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+}
+
+.Dictionary form {
+	margin-left: 20px;
+}
+
+.Dictionary .formInput {
+	width: 38%;
+	height: 40px;
+	margin-right: 10px;
+	border-color: orangered;
+	border-radius: 4px;
+	padding-left: 5px;
+}
+
+.Dictionary .formSearch {
+	width: 15%;
+	height: 40px;
+	background: orangered;
+	border-color: orangered;
+	color: white;
+	border-radius: 4px;
+}

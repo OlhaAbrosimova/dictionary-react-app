@@ -1,0 +1,11 @@
+.Phonetic .audioPlayer {
+	margin-left: 30px;
+	width: 20%;
+}
+
+.Phonetic .transcription {
+	margin-left: 30px;
+	position: relative;
+	bottom: 23px;
+	left: 5px;
+}

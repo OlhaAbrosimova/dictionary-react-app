@@ -1,0 +1,24 @@
+.App section {
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+  
+}
+
+.App .dictionaryHead {
+	color: orangered;
+    text-align: center;
+}
+
+.App footer {
+	max-width: 900px;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.App footer a {
+	text-decoration: none;
+	color: orangered;
+	font-weight: bold;
+}
