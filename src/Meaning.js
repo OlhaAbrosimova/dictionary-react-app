@@ -3,7 +3,7 @@ import Synonyms from "./Synonyms";
 import "./Meaning.css";
 
 export default function Meaning(props) {
-	console.log(props.meaning);
+	// console.log(props.meaning);
 	return (
 		<div className="Meaning">
 			<section>
@@ -11,13 +11,10 @@ export default function Meaning(props) {
 				{props.meaning.definitions.map(function (definition, index) {
 					return (
 						<div key={index}>
-							<p>
-								<div className="definitions"> {definition.definition}</div>
-
-								<div className="examples">
-									<em> {definition.example}</em>
-								</div>
-							</p>
+							<div className="definitions"> {definition.definition}</div>
+							<div className="examples">
+								<em> {definition.example}</em>
+							</div>
 						</div>
 					);
 				})}

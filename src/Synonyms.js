@@ -2,8 +2,8 @@ import React from "react";
 import "./Synonyms.css";
 
 export default function Synonyms(props) {
-	console.log(props.synonyms);
-	console.log(props.synonyms.length);
+	// console.log(props.synonyms);
+	// console.log(props.synonyms.length);
 
 	if (props.synonyms.length > 0) {
 		return (
