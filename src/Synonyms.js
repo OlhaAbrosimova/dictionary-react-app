@@ -12,7 +12,7 @@ export default function Synonyms(props) {
 					<em>Synonyms: </em>
 				</strong>
 				{props.synonyms.map(function (synonym, index) {
-					if (index != props.synonyms.length - 1) {
+					if (index !== props.synonyms.length - 1) {
 						return <span key={index}>"{synonym}", </span>;
 					} else {
 						return <span key={index}>"{synonym}".</span>;
