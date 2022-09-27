@@ -1,0 +1,27 @@
+.Photos section {
+	padding: 0px 30px;
+}
+
+.Photos img {
+	border-radius: 4px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
+/* .wrapper{
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  rid-template-rows: repeat(3, 1fr);
+}
+
+.cell {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.photo-image{
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
+} */
