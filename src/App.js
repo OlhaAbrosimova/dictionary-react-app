@@ -8,7 +8,7 @@ export default function App() {
 				<main>
 					<h1 className="dictionaryHead">Dictionary app</h1>
 
-					<Dictionary defaultKeyword="night" />
+					<Dictionary defaultKeyword="sunshine" />
 				</main>
 			</section>
 			<footer>
